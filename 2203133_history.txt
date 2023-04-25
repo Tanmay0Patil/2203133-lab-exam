@@ -1,0 +1,45 @@
+  728  who
+  729  ls -la
+  730  git clone git@github.com:Tanmay0Patil/2203133-lab-exam.git
+  731  cd 2203133-lab-exam/
+  732  touch README.md
+  733  vim README.md 
+  734  git pull https://github.com/tusharlone/cs102-git-essentials.git
+  735  ls -la
+  736  mv README.md ../README.md
+  737  git pull https://github.com/tusharlone/cs102-git-essentials.git
+  738  ls -la
+  739  cat README.md 
+  740  rm README.md 
+  741  mv ../README.md README.md
+  742  cat README.md 
+  743  wc -l ca_500.csv 
+  744  wc -l ca_500.csv us_500.csv 
+  745  cat ca_500.csv | head -n 1
+  746  cat us_500.csv | head -n 1
+  747  grep -iw "Montreal" ca_500.csv 
+  748  cat ca_500.csv | head -n 1 
+  749  cat ca_500.csv | head -n 1 > ca_city_Montreal.csv
+  750  grep -iw "Montreal" ca_500.csv >> ca_city_Montreal.csv 
+  751  cat ca_city_Montreal.csv 
+  752  vim 2203133_data_filter.sh
+  753  bash 2203133_data_filter.sh us_500.csv city Miami
+  754  cat us_city_Miami.csv 
+  755  vim 2203133_data_filter.sh
+  756  rm us_city_Miami.csv 
+  757  bash 2203133_data_filter.sh us_500.csv city Miami
+  758  cat us_city_Miami.csv 
+  759  vim 2203133_data_filter.sh
+  760  bash 2203133_data_filter.sh us_500.csv city Miami
+  761  vim 2203133_data_filter.sh
+  762  rm us_
+  763  rm us_city_Miami.csv 
+  764  bash 2203133_data_filter.sh us_500.csv city Miami
+  765  cat us_city_Miami.csv 
+  766  mkdir code
+  767  mkdir data
+  768  mv *.sh code/.
+  769  mv *.csv data/.
+  770  ls -la
+  771  history
+  772  history | tail -n 45 > 2203133_history.txt
